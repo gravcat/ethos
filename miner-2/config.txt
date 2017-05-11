@@ -132,7 +132,7 @@ globaldesktop disabled
 # NOTE: pwr is DPM state range 0-7, set lower for lower power usage, set higher if overclocking.
 # ------------------------------------------------------
 cor 4a9182 1000 1000 1000 1000
-mem 4a9182 2150 2150 2150 2150
+mem 4a9182 2000 2000 2000 2000
 pwr 4a9182 5 5 5 5
 # ------------------------------------------------------
 #
