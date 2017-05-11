@@ -28,10 +28,10 @@ proxywallet 760dF3ddF5A41Cb67867C4CE01Ad327cBaC2cf99.miner-2
 proxypool1 us1.ethpool.org:3333
 proxypool2 us2.ethpool.org:3333
 flags --farm-recheck 200
-globalcore 1000
-globalmem 1250
-globalfan 90
-globalpowertune 20
+#globalcore 1000
+#globalmem 1250
+#globalfan 90
+#globalpowertune 20
 autoreboot false
 custompanel spacecrab
 lockscreen enabled
@@ -131,9 +131,9 @@ globaldesktop disabled
 # SAMPLE PER-RIG CONFIG FOR AMDGPU (for a 6-gpu rig)
 # NOTE: pwr is DPM state range 0-7, set lower for lower power usage, set higher if overclocking.
 # ------------------------------------------------------
-cor 4a9182 1180 1180 1180 1180 1180
-mem 4a9182 2150 2150 2150 2150 2150
-pwr 4a9182 7 7 7 7 7
+cor 4a9182 1000 1000 1000 1000
+mem 4a9182 2150 2150 2150 2150
+pwr 4a9182 5 5 5 5
 # ------------------------------------------------------
 #
 # IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
