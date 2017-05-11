@@ -33,7 +33,7 @@ globalmem 1250
 globalfan 90
 globalpowertune 20
 autoreboot false
-custompanel publicsecret
+custompanel space
 lockscreen enabled
 globaldesktop disabled
 # ------------------------------------------------------
