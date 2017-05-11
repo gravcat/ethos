@@ -21,8 +21,9 @@
 # SAMPLE FORMAT: 
 # [type] [value]
 # ------------------------------------------------------
-globalminer ethminer
-maxgputemp 85
+#globalminer ethminer
+globalminer claymore
+maxgputemp 90
 stratumproxy enabled
 proxywallet 760dF3ddF5A41Cb67867C4CE01Ad327cBaC2cf99.ethos
 proxypool1 us1.ethpool.org:3333
@@ -30,7 +31,7 @@ proxypool2 us2.ethpool.org:3333
 flags --farm-recheck 200
 #globalcore 1000
 #globalmem 1250
-#globalfan 90
+globalfan 90
 #globalpowertune 20
 autoreboot true
 custompanel spacecrab
@@ -134,12 +135,12 @@ globaldesktop disabled
 # 2nd rig, cards that can't overclock
 cor 4a9182 1050 1050 1050 1050
 mem 4a9182 2000 2000 2000 2000
-pwr 4a9182 5 5 5 5
+pwr 4a9182 6 6 6 6
 
 # 1st rig, cards that gotta go fast
 cor 75164f 1050 1050 1050 1050
 mem 75164f 2200 2200 2200 2200
-pwr 75164f 6 6 6 6
+pwr 75164f 7 7 7 7
 # ------------------------------------------------------
 #
 # IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
