@@ -24,7 +24,7 @@
 globalminer ethminer
 maxgputemp 85
 stratumproxy enabled
-proxywallet 760dF3ddF5A41Cb67867C4CE01Ad327cBaC2cf99.miner-2
+proxywallet 760dF3ddF5A41Cb67867C4CE01Ad327cBaC2cf99.ethos
 proxypool1 us1.ethpool.org:3333
 proxypool2 us2.ethpool.org:3333
 flags --farm-recheck 200
@@ -32,7 +32,7 @@ flags --farm-recheck 200
 #globalmem 1250
 #globalfan 90
 #globalpowertune 20
-autoreboot false
+autoreboot true
 custompanel spacecrab
 lockscreen enabled
 globaldesktop disabled
@@ -131,9 +131,15 @@ globaldesktop disabled
 # SAMPLE PER-RIG CONFIG FOR AMDGPU (for a 6-gpu rig)
 # NOTE: pwr is DPM state range 0-7, set lower for lower power usage, set higher if overclocking.
 # ------------------------------------------------------
+# 2nd rig, cards that can't overclock
 cor 4a9182 1000 1000 1000 1000
 mem 4a9182 2000 2000 2000 2000
 pwr 4a9182 5 5 5 5
+
+# 1st rig, cards that gotta go fast
+cor 75164f 1050 1050 1050 1050
+mem 75164f 2200 2200 2200 2200
+pwr 75164f 6 6 6 6
 # ------------------------------------------------------
 #
 # IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
