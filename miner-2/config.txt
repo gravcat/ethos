@@ -33,7 +33,7 @@ globalmem 1250
 globalfan 90
 globalpowertune 20
 autoreboot false
-custompanel space
+custompanel spacecrab
 lockscreen enabled
 globaldesktop disabled
 # ------------------------------------------------------
@@ -131,9 +131,9 @@ globaldesktop disabled
 # SAMPLE PER-RIG CONFIG FOR AMDGPU (for a 6-gpu rig)
 # NOTE: pwr is DPM state range 0-7, set lower for lower power usage, set higher if overclocking.
 # ------------------------------------------------------
-# cor c94e13 1180 1180 1180 1180 1180 1180
-# mem c94e13 2150 2150 2150 2150 2150 2150
-# pwr c94e13 7 7 7 7 7 7
+cor 4a9182 1180 1180 1180 1180 1180 1180
+mem 4a9182 2150 2150 2150 2150 2150 2150
+pwr 4a9182 7 7 7 7 7 7
 # ------------------------------------------------------
 #
 # IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
