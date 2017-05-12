@@ -138,9 +138,9 @@ mem 4a9182 2000 2000 2000 2000
 pwr 4a9182 6 6 6 6
 
 # 1st rig, cards that gotta go fast
-cor 75164f 1050 1050 1050 1050
-mem 75164f 2250 2250 2250 2250
-pwr 75164f 7 7 7 7
+cor 75164f 1050 1150 1050 1050
+mem 75164f 2250 2150 2250 2250
+#pwr 75164f 7 7 7 7
 # ------------------------------------------------------
 #
 # IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
