@@ -28,15 +28,13 @@ stratumproxy enabled
 proxywallet 760dF3ddF5A41Cb67867C4CE01Ad327cBaC2cf99.ethos
 proxypool1 us1.ethpool.org:3333
 proxypool2 us2.ethpool.org:3333
-flags --farm-recheck 200
+flags --cl-global-work 8192 --farm-recheck 200
 #globalcore 1000
 #globalmem 1250
 globalfan 90
 #globalpowertune 20
-autoreboot true
 custompanel spacecrab
-lockscreen enabled
-globaldesktop disabled
+
 # ------------------------------------------------------
 #
 # EXPLANATION OF SETTINGS THAT APPLY TO ALL RIGS
@@ -139,12 +137,12 @@ globaldesktop disabled
 #pwr 75164f 7 7 7 7
 
 # 2nd rig
-cor 4a9182 1150 1290 1290
+#cor 4a9182 1150 1290 1290
 #mem 4a9182 2150 2000 2000
 #pwr 4a9182 6 6 6 6
 
 cor 00df54 1150 1266 1290 1290 1290
-mem 4a9182 2150 2000 2000 2000 2000
+mem 00df54 2150 2000 2000 2000 2000
 
 
 # ------------------------------------------------------
