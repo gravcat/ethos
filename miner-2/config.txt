@@ -29,10 +29,8 @@ proxywallet 760dF3ddF5A41Cb67867C4CE01Ad327cBaC2cf99.ethos
 proxypool1 us1.ethpool.org:3333
 proxypool2 us2.ethpool.org:3333
 flags --cl-global-work 8192 --farm-recheck 200
-#globalcore 1000
-#globalmem 1250
 globalfan 90
-#globalpowertune 20
+autoreboot 3
 custompanel spacecrab
 
 # ------------------------------------------------------
