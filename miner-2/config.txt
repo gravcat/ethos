@@ -1,11 +1,3 @@
-#maxgputemp 85
-#stratumproxy enabled
-#proxywallet 0x0bdC4F12fB57d3acA9C3cF72B7AA2789A20d27f2
-#proxypool1 pool-usa.ethosdistro.com:5001
-#proxypool2 pool-eu.ethosdistro.com:5001
-#flags --cl-global-work 8192 --farm-recheck 200
-#globalfan 85
-
 # ethOS Pool: ethosdistro.com/pool
 #
 # QUICK START GUIDE: ethosdistro.com/kb/#quick-start-guide
@@ -25,9 +17,8 @@
 globalminer claymore
 maxgputemp 90
 stratumproxy enabled
-proxywallet 760dF3ddF5A41Cb67867C4CE01Ad327cBaC2cf99.ethos
-proxypool1 us1.ethpool.org:3333
-proxypool2 us2.ethpool.org:3333
+proxywallet 0xc871205fa92e98d977845ec2998a6c5e72e5a532.00df54/nick@adrift.io
+proxypool1 eth-us-east1.nanopool.org:9999
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 90
 autoreboot 3
