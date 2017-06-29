@@ -17,7 +17,7 @@
 globalminer claymore
 maxgputemp 90
 stratumproxy enabled
-proxywallet 0xc871205fa92e98d977845ec2998a6c5e72e5a532.00df54/nick@adrift.io
+proxywallet 0xc871205fa92e98d977845ec2998a6c5e72e5a532
 proxypool1 eth-us-east1.nanopool.org:9999
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 90
