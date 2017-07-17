@@ -17,12 +17,18 @@
 globalminer claymore
 maxgputemp 90
 stratumproxy enabled
-proxywallet 0x6599ea3C8D034a5cdc6FeAF597EBfAf52e685020
-proxypool1 etc-us-east1.nanopool.org:19999
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 90
 autoreboot 3
 custompanel spacecrab
+
+# ns-eth
+proxywallet 0xAFc8965E78bD42F83074e975240f68C521890CeF
+proxypool1 eth-us1.nanopool.org:8888
+
+# nt-etc
+#proxywallet 0x6599ea3C8D034a5cdc6FeAF597EBfAf52e685020
+#proxypool1 etc-us-east1.nanopool.org:19999
 
 # ------------------------------------------------------
 #
