@@ -13,8 +13,8 @@
 # SAMPLE FORMAT: 
 # [type] [value]
 # ------------------------------------------------------
-#globalminer ethminer
-globalminer claymore
+globalminer ethminer
+#globalminer claymore
 maxgputemp 90
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
