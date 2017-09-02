@@ -31,8 +31,12 @@ custompanel spacecrab
 #proxypool1 etc-us-east1.nanopool.org:19999
 
 # nt-etc-mtopia
-proxywallet 0x6599ea3C8D034a5cdc6FeAF597EBfAf52e685020
-proxypool1 us.etc.minertopia.org:4444
+#proxywallet 0x6599ea3C8D034a5cdc6FeAF597EBfAf52e685020
+#proxypool1 us.etc.minertopia.org:4444
+
+# nt-ubq-mtopia
+#proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
+#proxypool1 pool.ubiqminers.org:8008
 
 # ------------------------------------------------------
 #
