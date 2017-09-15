@@ -20,7 +20,7 @@ stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 90
 autoreboot 3
-custompanel spacecrab
+custompanel space
 
 # ns-eth
 #proxywallet 0xAFc8965E78bD42F83074e975240f68C521890CeF
@@ -153,7 +153,7 @@ mem f348e3 2000 2000
 
 #cor cd782e 1000 1000 1000 1000 1000
 mem cd782e 1950 2000 1950 2000 1950
-#pwr cd782e 4 4 4 4 4 4
+pwr cd782e 4 4 4 4 4
 
 # ------------------------------------------------------
 #
