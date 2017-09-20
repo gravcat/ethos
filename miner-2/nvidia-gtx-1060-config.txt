@@ -1,9 +1,8 @@
 globalminer claymore
 maxgputemp 90
 stratumproxy enabled
-# btc for nicehash
-proxywallet 1946FxsBa6hQWfNu5XGkPtpjpCuEDiP6hu
-proxypool1 daggerhashimoto.usa.nicehash.com:3353
+proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
+proxypool1 pool.ubiqminers.org:8008
 #proxypool2 pool-eu.ethosdistro.com:5001
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
