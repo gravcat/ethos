@@ -1,4 +1,5 @@
-maxgputemp 85
+globalminer claymore
+maxgputemp 90
 stratumproxy enabled
 # btc for nicehash
 proxywallet 1946FxsBa6hQWfNu5XGkPtpjpCuEDiP6hu
@@ -8,6 +9,7 @@ flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
 globalpowertune 100
 globalmem 4500
+custompanel spacecrustac
 
 # ethOS Pool: ethosdistro.com/pool
 #
