@@ -1,9 +1,10 @@
 globalminer claymore
 maxgputemp 90
 stratumproxy enabled
-proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
-proxypool1 pool.ubiqminers.org:8008
-#proxypool2 pool-eu.ethosdistro.com:5001
+# ns-eth
+proxywallet 0xC871205Fa92E98d977845ec2998A6C5E72E5a532
+proxypool1 eth-us-east1.nanopool.org:9999
+proxypool2 eth-us-west1.nanopool.org:9999
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
 globalpowertune 100
