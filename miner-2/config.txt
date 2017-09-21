@@ -138,7 +138,9 @@ proxypool2 eth-us-west1.nanopool.org:9999
 #cor cd782e 1000 1000 1000 1000 1000
 mem cd782e 1950 2000 1950 2000 1950
 pwr cd782e 4 4 4 4 4
-flg cd782e 
+
+cor 61edae 1100 1100 1100
+pwr 61edae 4 4 4
 # ------------------------------------------------------
 #
 # IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
