@@ -35,9 +35,12 @@ custompanel spacecrustac
 #proxypool1 us.etc.minertopia.org:4444
 
 # nt-ubq-mtopia
-proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
-proxypool1 pool.ubiqminers.org:8008
+#proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
+#proxypool1 pool.ubiqminers.org:8008
 
+# nt miningpoolhub -> btc
+proxywallet 1946FxsBa6hQWfNu5XGkPtpjpCuEDiP6hu
+proxypool1 us-east.ethash-hub.miningpoolhub.com:17020
 # ------------------------------------------------------
 #
 # EXPLANATION OF SETTINGS THAT APPLY TO ALL RIGS
