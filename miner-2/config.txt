@@ -23,9 +23,9 @@ autoreboot 3
 custompanel spacecrustac
 
 # ns-eth
-proxywallet 0xC871205Fa92E98d977845ec2998A6C5E72E5a532
-proxypool1 eth-us-east1.nanopool.org:9999
-proxypool2 eth-us-west1.nanopool.org:9999
+#proxywallet 0xC871205Fa92E98d977845ec2998A6C5E72E5a532
+#proxypool1 eth-us-east1.nanopool.org:9999
+#proxypool2 eth-us-west1.nanopool.org:9999
 
 # nt-etc-nano
 #proxywallet 0x6599ea3C8D034a5cdc6FeAF597EBfAf52e685020
@@ -36,8 +36,8 @@ proxypool2 eth-us-west1.nanopool.org:9999
 #proxypool1 us.etc.minertopia.org:4444
 
 # nt-ubq-mtopia
-#proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
-#proxypool1 pool.ubiqminers.org:8008
+proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
+proxypool1 pool.ubiqminers.org:8008
 
 # ------------------------------------------------------
 #
