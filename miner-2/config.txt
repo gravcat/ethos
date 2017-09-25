@@ -137,10 +137,11 @@ proxypool1 pool.ubiqminers.org:8008
 
 #cor cd782e 1000 1000 1000 1000 1000
 mem cd782e 1950 2000 1950 2000 1950
-pwr cd782e 4 4 4 4 4
+pwr cd782e 3 3 3 3 3
 
 cor 61edae 1100 1100 1100
-pwr 61edae 4 4 4
+mem 61edae 2000 2000 2000
+pwr 61edae 3 3 3
 # ------------------------------------------------------
 #
 # IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
