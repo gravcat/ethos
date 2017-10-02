@@ -142,6 +142,11 @@ pwr cd782e 3 3 3 3 3
 cor 61edae 1100 1100 1100
 mem 61edae 2000 2000 2000
 pwr 61edae 3 3 3
+
+cor 75164f 1100 1100 1100 1100 1100
+mem 75164f 2000 2000 2000 2000 2000
+pwr 75164f 3 3 3 3 3
+
 # ------------------------------------------------------
 #
 # IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
