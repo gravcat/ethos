@@ -28,16 +28,16 @@ custompanel spacecrustac
 #proxypool2 eth-us-west1.nanopool.org:9999
 
 # nt-etc-nano
-#proxywallet 0x6599ea3C8D034a5cdc6FeAF597EBfAf52e685020
+#proxywallet 0x6F6acd8Df6FDdb1C2fe375927bdF21a86371cA2D
 #proxypool1 etc-us-east1.nanopool.org:19999
 
 # nt-etc-mtopia
-#proxywallet 0x6599ea3C8D034a5cdc6FeAF597EBfAf52e685020
-#proxypool1 us.etc.minertopia.org:4444
+proxywallet 0x6F6acd8Df6FDdb1C2fe375927bdF21a86371cA2D
+proxypool1 us.etc.minertopia.org:4444
 
 # nt-ubq-mtopia
-proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
-proxypool1 pool.ubiqminers.org:8008
+#proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
+#proxypool1 pool.ubiqminers.org:8008
 
 # ------------------------------------------------------
 #
@@ -136,8 +136,8 @@ proxypool1 pool.ubiqminers.org:8008
 # ------------------------------------------------------
 
 #cor cd782e 1000 1000 1000 1000 1000
-mem cd782e 1850 2000 1950 1900 1950
-pwr cd782e 3 3 3 3 3
+#mem cd782e 1850 2000 1950 1900 1950
+#pwr cd782e 3 3 3 3 3
 
 cor 61edae 1100 1100 1100
 mem 61edae 2000 2000 2000
