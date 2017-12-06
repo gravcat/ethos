@@ -33,7 +33,7 @@ custompanel spacecrustac
 
 # nt-etc-mtopia
 proxywallet 0x6F6acd8Df6FDdb1C2fe375927bdF21a86371cA2D
-proxypool1 us.etc.minertopia.org:4444
+proxypool1 us.etc.epool.io:8008
 
 # nt-ubq-mtopia
 #proxywallet 0x602c8f6508b01EB8c0D994ccD3452c3965a1AF79
